@@ -1,11 +1,12 @@
 require 'hexp'
 require 'kramdown'
+require 'hexp/kramdown/converter'
 
 module Hexp
   module Kramdown
-    def convert(document_or_element)
-      Hexp::Kramdown::Converter.new.convert(
-        if document_or_element.is_a? Kramdown::Document
+    def self.convert(document_or_element)
+      Converter.new.convert(
+        if document_or_element.is_a? ::Kramdown::Document
           document_or_element.root
         else
           document_or_element
