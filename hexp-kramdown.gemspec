@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name        = 'hexp-kramdown'
-  gem.version     = "0.9.1"
+  gem.version     = "0.9.2"
   gem.authors     = [ 'Arne Brasseur' ]
   gem.email       = [ 'arne@arnebrasseur.net' ]
   gem.description = 'Convert a Kramdown document to Hexp'
