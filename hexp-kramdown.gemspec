@@ -2,10 +2,10 @@
 
 Gem::Specification.new do |gem|
   gem.name        = 'hexp-kramdown'
-  gem.version     = "0.9.0"
+  gem.version     = "0.9.1"
   gem.authors     = [ 'Arne Brasseur' ]
   gem.email       = [ 'arne@arnebrasseur.net' ]
-  gem.description = 'Parse Markdown/Kramdown with YAML metadata'
+  gem.description = 'Convert a Kramdown document to Hexp'
   gem.summary     = gem.description
   gem.homepage    = 'https://github.com/plexus/hexp-kramdown'
   gem.license     = 'MIT'
